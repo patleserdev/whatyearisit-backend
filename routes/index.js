@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
 
   let date = new Date()
 
-  res.json({year : date.getFullYear()})
+  res.json({year : date.getFullYear().toString()})
 
 
 });
